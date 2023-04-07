@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary);
+}
+
 :root {
     --primary:#0b0c10;
     --words: #66fcf1;
@@ -17,52 +24,58 @@ body {
 }
 
 header {
-    background-color: var(--primary);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
-
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+    color: var(--words)
 }
 
-header h1 {
+h2 {
+    color: var(--words)
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+p {
     color: var(--words);
-    font-size: 40px;
-    font-weight: bold;
-    background-color: var(--secondary);
-    padding: 10px;
-    border: 5px solid var(--border);
+}
+
+ul li a{
+    color: var(--words)
+}
+
+ul li a:hover {
+    background: var(--border);
+    color: #fff;
+}
+
+section .my-work {
+    border: 4px 4px 4px 4px color var(--border);
 }
 
 .about-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 20px;
+    margin: 20px;
 }
 
-.about-me p {
-    font-size: 20px;
-    padding: 0 30px;
-    line-height: 1.6;
-    width: 90%;
+.my-work {
+    background-color: var(--border);
+    padding: 100% var(--border); 
+    margin: 20px;
+}
+
+.contact_me {
+    background-color: var(--border);
 }
 
 footer {
-    display: flex;
-    color: var(--words);
-}
-
-div h2 {
-    color: var(--words);
-    border: var(--border);
-
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 30px;
+    margin: 20px;
+    
 }
