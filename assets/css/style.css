@@ -7,8 +7,9 @@
 
 :root {
     --primary:#0b0c10;
-    --words: #66fcf1;
-    --border: #1f2833;
+    --header: #66fcf1;
+    --words: #C5C6C7;
+    --border: #45829e;
     
 }
 
@@ -28,19 +29,21 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-     color: var(--words);
+     color: var(--header);
      font-family:  Georgia, Times, 'Times New Roman', serif;
  }
 
 h1 {
-    color: var(--words);
+    color: var(--header);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 h2 {
-    color: var(--words);
+    color: var(--header);
     padding: 20px;
+    border-style: solid;
+     border-color: var(--border);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -64,8 +67,7 @@ ul li a{
 }
 
 ul li a:hover {
-    background: var(--border);
-    color: #fff;
+    outline: #66fcf1;
 }
 
 section .my-work {
@@ -79,7 +81,7 @@ section .my-work {
 .my-work {
     background-color: var(--border);
     padding: 100% var(--border); 
-    margin: 20px;
+    margin: 50px;
 }
 
 .contact_me {
@@ -87,6 +89,6 @@ section .my-work {
 }
 
 footer {
-    margin: 20px;
+    margin: 100px;
     
 }
