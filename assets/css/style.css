@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary:#0b0c10;
+    --primary:#152833;
     --header: #66fcf1;
     --words: #C5C6C7;
     --border: #45829e;
@@ -28,6 +28,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom-style: groove;
+    border-color: var(--border);
     padding: 30px 10%;
      color: var(--header);
      font-family:  Georgia, Times, 'Times New Roman', serif;
