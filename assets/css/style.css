@@ -1,7 +1,68 @@
-h1 {
-    color: red;
+:root {
+    --primary:#0b0c10;
+    --words: #66fcf1;
+    --border: #1f2833;
+    
 }
 
-p {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+header h1 {
+    color: var(--words);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--secondary);
+    padding: 10px;
+    border: 5px solid var(--border);
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+
+footer {
+    display: flex;
+    color: var(--words);
+}
+
+div h2 {
+    color: var(--words);
+    border: var(--border);
+
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
 }
