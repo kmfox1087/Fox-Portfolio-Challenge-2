@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Tahoma, sans-serif
     
 }
 
@@ -32,12 +32,12 @@ header {
     border-color: var(--border);
     padding: 30px 10%;
      color: var(--header);
-     font-family:  Georgia, Times, 'Times New Roman', serif;
+     font-family: Verdana, Tahoma, sans-serif
  }
 
 h1 {
     color: var(--header);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Tahoma, sans-serif
 }
 
 
@@ -46,30 +46,33 @@ h2 {
     padding: 20px;
     border-style: solid;
      border-color: var(--border);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.nav_links {
-    list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Tahoma, sans-serif
 }
 
 .nav_links {
     display: inline-block;
     padding: 0px 20px;
+    list-style: none;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.nav_links a {
+    transition: all 0.3 ease 0s;
 }
 
 p {
     color: var(--words);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 ul li a{
-    color: var(--words)
+    color: var(--words);
+    display: inline;
 }
 
-ul li a:hover {
-    outline: #66fcf1;
+ul li a:active {
+    background: var(--border);
 }
 
 section .my-work {
@@ -86,8 +89,17 @@ section .my-work {
     margin: 50px;
 }
 
-.contact_me {
-    background-color: var(--border);
+
+.img-daisy {
+    border: 3px solid var(--border);
+}
+
+.study-guide {
+    rotate: -5deg;
+}
+
+.contact-me ul {
+    list-style-type: disc;
 }
 
 footer {
