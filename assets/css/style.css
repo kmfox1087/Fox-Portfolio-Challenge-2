@@ -50,7 +50,7 @@ h2 {
 }
 
 .nav_links {
-    display: inline-block;
+    display: inline;
     padding: 0px 20px;
     list-style: none;
     font-family: Verdana, Tahoma, sans-serif;
@@ -77,6 +77,7 @@ ul li a:active {
 
 section .my-work {
     border: 4px 4px 4px 4px color var(--border);
+    margin-bottom: 10px;
 }
 
 .about-me {
@@ -86,20 +87,31 @@ section .my-work {
 .my-work {
     background-color: var(--border);
     padding: 100% var(--border); 
-    margin: 50px;
 }
 
+.my-work li {
+    list-style: none;
+    display: inline;
+    margin-top: 10px;
+}
 
 .img-daisy {
     border: 3px solid var(--border);
 }
 
 .study-guide {
-    rotate: -5deg;
+    rotate: -2deg;
+    margin: 30px;
+}
+
+.horiseon {
+    rotate: 1deg;
+    margin: 20px;
 }
 
 .contact-me ul {
-    list-style-type: disc;
+    list-style-type: none;
+    display: inline;
 }
 
 footer {
