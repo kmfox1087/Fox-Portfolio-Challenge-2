@@ -11,7 +11,7 @@
 
 ## Description
 
-_Our 2nd Bootcamp Challenge required us to make a website from scratch using HTML and CSS. We we're required to have our nav bar link to the sections of our webpage, as well as display our work with images leading to those deployed webpages. This can also be used as a starter base of code down the line when we learn more and are able to use those skills to make our application even better!_
+_Our 2nd Bootcamp Challenge required us to make a website from scratch using HTML and CSS. We were required to have our nav bar link to the sections of our webpage, as well as display our work with images leading to those deployed webpages. This can also be used as a starter base of code down the line when we learn more and are able to use those skills to make our application even better!_
 
 ## Setup/Installation Requirements
 
