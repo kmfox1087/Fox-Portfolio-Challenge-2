@@ -2,7 +2,7 @@
 
 #### By _*Kylie Fox*_
 
-![launched portfolio website](assets\images\kmfox1087.github.io_Fox-Portfolio-Challenge-2_.png)
+![kmfox1087 github io_Fox-Portfolio-Challenge-2_](https://user-images.githubusercontent.com/128554207/231038213-26ca93c8-d066-4031-972c-168c7857f6f9.png)
 
 ## Technologies Used
 
